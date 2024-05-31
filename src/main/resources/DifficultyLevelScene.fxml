@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="projekt.wisielec.ui.gui.controllers.HomeController"
+            prefHeight="60.0" prefWidth="480.0">
+<Pane prefHeight="60.0" prefWidth="740.0">
+    <HBox>
+        <Button id="buttonOnePlayer" mnemonicParsing="false" onAction="#EasyGame"
+                prefHeight="50.0" prefWidth="240.0" text="Easy">
+            <font>
+                <Font size="22.0"/>
+            </font>
+        </Button>
+        <Button id="buttonOnePlayer" mnemonicParsing="false" onAction="#MediumGame"
+                prefHeight="50.0" prefWidth="240.0" text="Medium">
+            <font>
+                <Font size="22.0"/>
+            </font>
+        </Button>
+        <Button id="buttonOnePlayer" mnemonicParsing="false" onAction="#HardGame"
+                prefHeight="50.0" prefWidth="240.0" text="Hard">
+            <font>
+                <Font size="22.0"/>
+            </font>
+        </Button>
+    </HBox>
+</Pane>
+</AnchorPane>

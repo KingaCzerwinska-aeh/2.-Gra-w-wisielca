@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="60.0" prefWidth="380.0" xmlns="http://javafx.com/javafx/10.0.2-internal"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="projekt.wisielec.ui.gui.controllers.HomeController">
+    <Pane prefHeight="60.0" prefWidth="380.0">
+        <HBox>
+        <Button id="buttonOnePlayer" mnemonicParsing="false" onAction="#startOnePlayerGame"
+                prefHeight="50.0" prefWidth="120.0" text="PLAY">
+            <font>
+                <Font size="22.0"/>
+            </font>
+        </Button>
+        <Button id="buttonOnePlayer" mnemonicParsing="false" onAction="#addEdit"
+                prefHeight="50.0" prefWidth="240.0" text="ADD or EDIT WORDS">
+            <font>
+                <Font size="22.0"/>
+            </font>
+        </Button>
+        </HBox>
+    </Pane>
+</AnchorPane>
